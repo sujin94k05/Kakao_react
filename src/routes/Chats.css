@@ -1,0 +1,42 @@
+/* Chats.css */
+
+/* common */
+
+
+
+/* layout */
+header{position: fixed; width: 100%; padding: 5px 10px 15px; color: #fff; box-sizing: border-box; background-color: #523737;}
+    .header_top{display: flex; justify-content: space-between; font-size: 12px; margin-bottom: 15px;}
+    .header_bottom{display: flex; justify-content: space-between;}
+main{padding-top: 72px; animation: 0.5s popin ease-in-out;}
+    .srch{display:  flex; position: relative; padding: 15px 25px; color: #bbbbbb;}
+nav{display: flex; justify-content: space-between; position: fixed; bottom: 0; width: 100%; padding: 10px 30px 5px 30px; border-top: 1px solid #c1c1c1; box-sizing: border-box; background-color: #f7f7f7;}
+
+/* header */
+
+.header_left{width: 33.33%;}
+.header_left > .header_txt{color: rgba(255, 255, 255, 0.5);}
+
+.header_center{width: 33.33%; text-align: center;}
+.header_center > .header_num{color: #ffff00;}
+
+.header_right{width: 33.33%; text-align: right;}
+
+/* main */
+/* srch */
+.srch > i{position: absolute; top: 19px; left: 40px;}
+.srch > input{width: 100%; padding: 5px 7px; text-align: center; border: none; border-radius: 5px; background-color: #f1f2f3;}
+
+/* section */
+.chats > li{padding: 10px; border: 1px solid #ebebeb; border-bottom: none;}
+.chats > li:last-child{border-bottom: 1px solid #ebebeb;}
+.chats > li > a{display: flex; justify-content: space-between; text-decoration: none; color: inherit;}
+.chats > li > a > img{width: 50px; height: 50px; margin-right: 20px; border-radius: 50%;}
+.chats > li > a > .chats_con{flex: auto;}
+.chats > li > a > .chats_con > .name{margin-bottom: 10px; font-size: 16px; font-weight: bold;}
+.chats > li > a > .chats_con > .message{display: block; font-size: 11px; color: #b4b4b4;}
+.chats > li > a > .chats_time{text-align: right; font-size: 10px; color: #b4b4b4;}
+
+/* chat-btn */
+.chat-btn{position: fixed; right: 20px; bottom: 80px; width: 60px; height: 60px; font-size: 20px; text-align: center; line-height: 60px; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3); border-radius: 50%; background-color: #ffe94a; transition: all 0.2s linear 0s;}
+.chat-btn:hover{color: #fff; background-color: #523737;}

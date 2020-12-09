@@ -1,0 +1,45 @@
+/* profile.css */
+/* common */
+
+/* layout */
+.Profile_Header{position: fixed; width: 100%; padding: 5px 10px 15px; color: #fff; box-sizing: border-box; background-color: transparent;}
+    .header_top{display: flex; justify-content: space-between; font-size: 12px; margin-bottom: 15px;}
+    .header_bottom{display: flex; justify-content: space-between;}
+main{padding-top: 72px; animation: 0.5s popin ease-in-out;}
+    .srch{display:  flex; position: relative; padding: 15px 25px; color: #bbbbbb;}
+nav{display: flex; justify-content: space-between; position: fixed; bottom: 0; width: 100%; padding: 10px 30px 5px 30px; border-top: 1px solid #c1c1c1; box-sizing: border-box; background-color: #f7f7f7;}
+
+/* header */
+
+.header_left{width: 33.33%;}
+.header_left > a{color: #fff;}
+.header_left > .header_txt{color: rgba(255, 255, 255, 0.5);}
+
+.header_center{width: 33.33%; text-align: center;}
+.header_center > .header_num{color: #ffff00;}
+
+.header_right{width: 33.33%; text-align: right;}
+
+/* main */
+.main_header{z-index: -1; position: relative; top: -72px; height: 65vh; background: url(../images/bg_default.png) no-repeat 0 0; background-size: cover;}
+
+.pic{position: relative; top: 540px; text-align: center;}
+.pic > img{display: block; width: 100px; height: 100px; margin: 0 auto; border-radius: 50%; margin-bottom: 10px;}
+.pic > p{display: inline-block; color: #ccc; font-size: 12px; padding: 3px 50px 3px 3px; margin-top: 10px; margin-bottom: 30px; border: 1px solid #bbb; border-radius: 2px;}
+
+
+.main_con{position: relative; top: 30px; display: flex; justify-content: center; text-align: center;}
+
+.main_con_actions{margin-top: 50px; display: flex;}
+
+.actions{display: flex; flex-direction: column; align-items: center; margin-right: 15px; cursor: pointer;}
+
+.circle{padding: 15px; border-radius: 50%; background-color: #f2f2f2;}
+.circle > i{font-size: 17px; color: #523737;}
+
+.actions_title{font-size: 12px; font-weight: 600; margin-top: 15px;}
+
+
+/* srch */
+.srch > i{position: absolute; top: 19px; left: 40px;}
+.srch > input{width: 100%; padding: 5px 7px; text-align: center; border: none; border-radius: 5px; background-color: #f1f2f3;}

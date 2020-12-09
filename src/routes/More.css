@@ -1,0 +1,57 @@
+/* more.css */
+
+/* common */
+
+/* layout */
+header{position: fixed; width: 100%; padding: 5px 10px 15px; color: #fff; box-sizing: border-box; background-color: #523737;}
+    .header_top{display: flex; justify-content: space-between; font-size: 12px; margin-bottom: 15px;}
+    .header_bottom{display: flex; justify-content: space-between;}
+main{padding-top: 72px; animation: 0.5s popin ease-in-out;}
+    .srch{display:  flex; position: relative; padding: 15px 25px; color: #bbbbbb;}
+nav{display: flex; justify-content: space-between; position: fixed; bottom: 0; width: 100%; padding: 10px 30px 5px 30px; border-top: 1px solid #c1c1c1; box-sizing: border-box; background-color: #f7f7f7;}
+
+/* header */
+
+.header_left{width: 33.33%;}
+.header_left > .header_txt{color: rgba(255, 255, 255, 0.5);}
+
+.header_center{width: 33.33%; text-align: center;}
+.header_center > .header_num{color: #ffff00;}
+
+.header_right{width: 33.33%; text-align: right;}
+
+
+/* main */
+.my_profile, .option, .plus_friends{border-bottom: 10px solid #eee;}
+/* my profile */
+.my_profile{display: flex; justify-content: space-between; align-items: center; padding: 15px;}
+.my_profile > img{width: 50px; height: 50px; border-radius: 50%; margin-right: 20px;}
+.my_profile > .profile_con{flex: auto; box-sizing: border-box;}
+.my_profile > .profile_con > .name{font-weight: bold; margin-bottom: 5px;}
+.my_profile > .profile_con > .email{font-size: 12px; color: #b4b4b4;}
+
+
+/* option */
+.option{display: flex; justify-content: space-between; align-items: center;}
+.option > .more_menu{display: flex; flex-direction: column; align-items: center; padding: 15px; color: #523737;}
+.option > .more_menu > i{font-size: 25px; padding-bottom: 10px;}
+.option > .more_menu > span{font-size: 12px;}
+
+
+/* plus_friends */
+.plus_friends{padding: 20px;}
+
+.plus_friends > .plus_header{display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px;}
+.plus_friends > .plus_header > span{color: #b4b4b4;}
+
+.plus_friends > .plus_con{display: flex; justify-content: space-between; flex-wrap: wrap;}
+.plus_friends > .plus_con > .plus_con_item{width: 50%; margin-bottom: 30px;}
+
+.plus_friends > .plus_con > .plus_con_item > i{margin-right: 10px;}
+.plus_friends > .plus_con > .plus_con_item > span{font-size: 13px;}
+
+/* more menu */
+.more_menu{display: flex; padding: 20px;}
+.more_menu > .more_menu_item{display: flex; flex-direction: column; align-items: center; margin-right: 20px;}
+.more_menu > .more_menu_item > img{height: 45px; margin-bottom: 10px;}
+.more_menu > .more_menu_item > span{font-size: 12px;}

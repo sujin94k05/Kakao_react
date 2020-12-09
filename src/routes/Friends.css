@@ -1,0 +1,36 @@
+/* main.css */
+
+/* common */
+a{text-decoration: none;}
+
+/* layout */
+header{position: fixed; width: 100%; padding: 5px 10px 15px; color: #fff; box-sizing: border-box; background-color: #523737;}
+    .header_top{display: flex; justify-content: space-between; font-size: 12px; margin-bottom: 15px;}
+    .header_bottom{display: flex; justify-content: space-between;}
+main{padding-top: 72px; animation: 0.5s popin ease-in-out;}
+    .srch{display:  flex; position: relative; padding: 15px 25px; color: #bbbbbb;}
+nav{display: flex; justify-content: space-between; position: fixed; bottom: 0; width: 100%; padding: 10px 30px 5px 30px; border-top: 1px solid #c1c1c1; box-sizing: border-box; background-color: #f7f7f7;}
+
+
+/* header */
+
+.header_left{width: 33.33%;}
+.header_left > .header_txt{color: rgba(255, 255, 255, 0.5);}
+
+.header_center{width: 33.33%; text-align: center;}
+.header_center > .header_num{color: #ffff00;}
+
+.header_right{width: 33.33%; text-align: right;}
+
+/* main */
+/* srch */
+.srch > i{position: absolute; top: 19px; left: 40px;}
+.srch > input{width: 100%; padding: 5px 7px; text-align: center; border: none; border-radius: 5px; background-color: #f1f2f3;}
+
+/* section */
+section > .section_header{padding: 10px 15px; font-size: 12px; color: #b4b4b4; border-top: 1px solid #ebebeb; border-bottom: 1px solid #ebebeb;}
+
+.profile{display: flex; align-items: center; justify-content: space-between; padding: 10px 15px;}
+.profile > img{width: 40px; height: 40px; border-radius: 50%;}
+.profile > a{flex: auto; padding-left: 10px; font-size: 14px; text-decoration: none; color: inherit; }
+.profile > span{padding: 10px; font-size: 10px; color: #939393; border-radius: 5px; background-color: #f0f0f0;}

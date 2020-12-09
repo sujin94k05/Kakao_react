@@ -1,0 +1,7 @@
+/* Nav.css */
+
+/* nav */
+nav > a{display: flex; flex-direction: column; text-decoration: none; color: #c1c1c1;}
+nav > a > i{padding-bottom: 5px; font-size: 20px; text-align: center;}
+nav > a > span{font-size: 10px;}
+nav .click{color: #523737;}
